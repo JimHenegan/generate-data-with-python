@@ -1,0 +1,4 @@
+var_name,var_label,var_dist_type,var_mu,var_sd,var_p,var_list_of_choices
+age,Age (years),normal,75,3,,
+female,Female Indicator,bernoulli,,,0.5,
+edu3cat,Education (3 category),list_of_choices,,,,"[1, 2, 3]"
