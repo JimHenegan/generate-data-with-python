@@ -1,4 +1,10 @@
 var_name,var_label,var_dist_type,var_mu,var_sd,var_p,var_list_of_choices
 age,Age (years),normal,75,3,,
 female,Female Indicator,bernoulli,,,0.5,
-edu3cat,Education (3 category),list_of_choices,,,,"[1, 2, 3]"
+marital_status, Marital Status,list_of_choices,,,,"[1, 2, 3, 4]"
+housing_type, Housing Type,list_of_choices,,,,"[1, 2, 3, 4, 5]"
+educ_3cat,Education (3 category),list_of_choices,,,,"[1, 2, 3]"
+smoke,Smoking Status,list_of_choices,,,,"[1, 2, 3]"
+weight,Weight (kg),normal,77,5,,
+height,Height (cm),normal,170,15,,
+htn,Hypertension Status,bernoulli,,,0.7
