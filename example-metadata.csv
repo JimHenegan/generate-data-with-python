@@ -1,10 +1,21 @@
 var_name,var_label,var_dist_type,var_mu,var_sd,var_p,var_list_of_choices
 age,Age (years),normal,75,3,,
 female,Female Indicator,bernoulli,,,0.5,
+born_in_us,Born in the United States Indicator,bernoulli,,,0.9,
 marital_status, Marital Status,list_of_choices,,,,"[1, 2, 3, 4]"
 housing_type, Housing Type,list_of_choices,,,,"[1, 2, 3, 4, 5]"
 educ_3cat,Education (3 category),list_of_choices,,,,"[1, 2, 3]"
 smoke,Smoking Status,list_of_choices,,,,"[1, 2, 3]"
+body_temp,Body Temperature (F),normal,98.6,1,,
 weight,Weight (kg),normal,77,5,,
 height,Height (cm),normal,170,15,,
-htn,Hypertension Status,bernoulli,,,0.7
+htn,Hypertension Status,bernoulli,,,0.7,
+tibia_length,Tibia Length (cm),normal,43,5,,
+upper_waist_circ,Upper Waist Circumference (cm),normal,90,10
+grip_strength,Grip strength measurement,normal,30,5
+adl_total,Activities of Daily Living (total score),list_of_choices,,,,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]"
+pulse,Pulse (beats per minute),normal,70,5,,
+walk_quarter_mile,Difficult/ease walking 1/4 mile,list_of_choices,,,,"[0, 1, 2, 3]"
+lift_carry_10,Difficult/ease carrying 10 pounds,list_of_choices,,,,"[0, 1, 2, 3]"
+ldcw_time,Long distance (400m) walk completion time,normal,400,20,,
+chair_stand_score,SPPB - Chair Stand Score,list_of_choices,,,,"[0, 1, 2, 3, 4]"
